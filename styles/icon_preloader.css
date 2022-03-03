@@ -1,0 +1,8 @@
+#L9{
+    width: 80px;
+    height: 80px;
+    display: none;
+}
+#L9.active{
+    display: inline-block;
+}
