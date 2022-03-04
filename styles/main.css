@@ -53,6 +53,13 @@ body{
 
     position: relative;
 }
+#logo{
+    width: 30vw;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 30vw/2);
+}
 #button_capture{
     font: var(--size-text-1) var(--font-family-1);
 
@@ -82,7 +89,7 @@ body{
     width: 100%;
     
     position: absolute;
-    bottom: 40px;
+    top: 25px;
 
     text-align: center;
 }
@@ -189,7 +196,7 @@ body{
         padding: 10px 0;
     }
     .container_video{
-        width: 80%;
+        width: 60%;
     }
     .container_images{
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -197,14 +204,27 @@ body{
     .container_item_image{
         height: 200px;
     }
+    .container_link_images{
+        top: initial;
+        bottom: 50px;
+    }
+    #logo{
+        width: 30vw;
+        margin: 0 auto;
+        position: initial;
+        margin-bottom: 20px;
+    }
 }
 @media only screen and (min-width: 768px) {
     .container_video{
-        width: 65%;
+        width: 45%;
     }
 }
 @media only screen and (min-width: 992px) {
+    #logo{
+        width: 15vw;
+    }
     .container_video{
-        width: 40%;
+        width: 35%;
     }
 }

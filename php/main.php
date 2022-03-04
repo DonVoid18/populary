@@ -4,6 +4,7 @@
         <div class="app">
                 <main id="main">
                         <div class="container_video">
+                                <img id="logo" src="<?php echo $link_base_root ?>/logo/logo_populary.png" alt="Logo Populary" title="Populary">
                                 <video id="video" autoplay="true"></video>
                                 <button id="button_capture">Capturar Fotografía</button>
                                 <div class="container_answer_status">
