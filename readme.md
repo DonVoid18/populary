@@ -1,6 +1,6 @@
 <!-- header -->
 <div align="center">
-  <img src="./logo/logo_populary.png" alt="Logo" title="Logo" width="200">
+  <img src="./images_readme/programador347.png" alt="Logo" title="Logo" width="100">
 </div>
 <h1 align="center">
   Populary V1.0
